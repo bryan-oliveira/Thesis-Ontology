@@ -1,3 +1,11 @@
-## Thesis Recommender
+# Thesis Recommender
 
 This is a semantic web project that recommends theses. The theses were scraped from a public thesis repository (https://estudogeral.sib.uc.pt).
+
+## Thesis Scraper
+
+The repository contains the web scraper used to scrape the theses. The code is in Java and uses the jsoup HTML parser library.
+
+## Web Server
+
+The web server uses Flask, a Python framework. Just run "./python run.py" to start server.
