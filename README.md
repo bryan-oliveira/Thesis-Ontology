@@ -1,6 +1,6 @@
 # Thesis Recommender
 
-This is a semantic web project that recommends theses. The theses were scraped from a public thesis repository (https://estudogeral.sib.uc.pt).
+This is a semantic web project that recommends theses. The theses were scraped from a public thesis repository (https://estudogeral.sib.uc.pt). An ontology is used to further enrich the search capabilities of the web application. The ontology was modeled using Protege (http://protege.stanford.edu/).
 
 ## Thesis Scraper
 
