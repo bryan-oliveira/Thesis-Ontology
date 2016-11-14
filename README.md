@@ -8,4 +8,4 @@ The repository contains the web scraper used to scrape the theses. The code is i
 
 ## Web Server
 
-The web server uses Flask, a Python framework. Just run "./python run.py" to start server.
+Flask, a Python framework, was used for the web server. Run "./python run.py" to start server.
