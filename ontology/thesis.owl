@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="localhost/ontologies/Thesis.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="localhost/ontologies/Thesis.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#DoctorateThesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MasterThesis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Thesis"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAdvisor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAbstract"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateSubmitted"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDeiArea"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasGrade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasURI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Thesis_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doc_Thesis_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Master_Thesis_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Master_Thesis_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Person3"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DoctorateThesis"/>
+        <Class IRI="#Thesis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MasterThesis"/>
+        <Class IRI="#Thesis"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#DoctorateThesis"/>
+        <NamedIndividual IRI="#Doc_Thesis_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DoctorateThesis"/>
+        <NamedIndividual IRI="#Doc_Thesis_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MasterThesis"/>
+        <NamedIndividual IRI="#Master_Thesis_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MasterThesis"/>
+        <NamedIndividual IRI="#Master_Thesis_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#Person3"/>
+    </ClassAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAdvisor"/>
+        <Class IRI="#Thesis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Thesis"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAdvisor"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasAbstract"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasDateSubmitted"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasDeiArea"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasGrade"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasTitle"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasURI"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasAbstract"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDateSubmitted"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasDeiArea"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasGrade"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasKeyword"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasTitle"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasURI"/>
+        <Class IRI="#Thesis"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasAbstract"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDateSubmitted"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasDeiArea"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasGrade"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasURI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

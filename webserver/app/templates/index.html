@@ -1,0 +1,76 @@
+{% import 'elements.html' as els %}
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="css/main.css">
+{% if debug %}
+<link rel="stylesheet" type="text/css" href="css/debug.css">
+{% endif %}
+
+<script src="js/main.js"></script>
+</head>
+
+<!--
+    TODO
+        - keywords + ramoDEI -> classes
+
+-->
+
+<body>
+    <div class="mtitle"> {{ title }} </div>
+    <div class="mbody divred" >
+    <div class="lbar bred">
+
+        <div class="searcharea byel">
+            <form>
+                <input type="text" name="searchbox" placeholder="Search">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="browsearea bpink">
+            <div class="br_title">By Date</div>
+                <a href="?date=all"><div class="br_item br_all">All</div></a>
+            {% for d in dates %}
+                <a href="?date={{ d }}"><div class="br_item">{{ d }}</div></a>
+            {% endfor %}
+
+             <div class="br_title">By Advisor</div>
+                <a href="?advisor=all"><div class="br_item br_all">All</div></a>
+            {% for a in advisors %}
+                <a href="?advisor={{ a }}"><div class="br_item">{{ a }}</div></a>
+            {% endfor %}
+
+            <div class="br_title">By Author</div>
+                <a href="?author=all"><div class="br_item br_all">All</div></a>
+            {% for a in authors %}
+                <a href="?author={{ a }}"><div class="br_item">{{ a }}</div></a>
+            {% endfor %}
+
+         </div>
+
+    </div>
+
+    <div class="cbar bgreen">
+        <!-- THE ITEMS  -->
+        {% for ri in resitems %}
+            {{ els.resitem(ri, loop.index, loop.first) }}
+        {% endfor %}
+    </div>
+
+    <div class="rbar bblue">
+        <div class="rectitle byel"> Maybe you can look at these ones </div>
+        <div class="reccontent byel">
+            <!-- THE RECOMENDATION ITEMS  -->
+            {% for ri in recitems %}
+                {{ els.resitem(ri, loop.index, loop.first, True) }}
+            {% endfor %}
+        </div>
+    </div>
+    <br class="fc" />
+    </div>
+
+</body>
+</html>

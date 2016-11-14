@@ -1,0 +1,212 @@
+sistemas de informacao
+sistemas de gestao da qualidade
+iso 9001
+iso2
+cultura da qualidade
+gestao de processos de negocio
+conformidade regulamentar
+sinergias
+delay tolerant routing
+user provided networks
+incentive mechanism
+data warehouse
+heart sound
+valvular disease
+prosthetic valve
+segmentation
+heart murmur
+classification
+noise detection
+time-frequency analysis
+wavelet decomposition
+nonlinear dynamics
+som cardiaco
+doenca valvular
+valvula prostetica
+segmentacao
+classificacao
+analise tempo-frequencia
+decomposicao de onduletas
+dinamica nao linear
+p-health
+photoplethysmogram
+electrocardiogram
+motion artifacts
+cardiac function
+systolic time intervals
+vascular function
+arterial blood pressure regulation
+neurally mediated syncope
+security in wireless sensor networks
+end-to-end security in 6lowpan environments
+computational evolution
+genetic programming
+representations
+gene regulatory networks
+data security
+data warehousing
+data masking
+encryption
+database intrusion detection
+database security frameworks
+remote experimentation
+weblabs
+remote laboratories
+ieee1451.0 std.
+fpgas
+hardware reconfiguration
+sistemas complexos
+vida artificial
+sistemas multi-agente
+computacao evolucionaria
+redes de sensores sem fios
+localizacao
+integracao
+internet das coisas
+comunicacao fiavel
+ipv6
+network mobility
+route optimisation
+simulation
+desempenho
+sistemas de processamento de eventos
+desagregacao de sinal electrico
+separacao de fontes
+extraccao de caracteristicas e classificacao de padroes
+dependability benchmarking
+software faults
+software implemented fault injection
+self-healing
+autonomic computing
+web applications
+fault tolerance
+multihoming
+multiaccess
+optimization
+path selection
+gpu computing
+machine learning
+visao por computador
+independent video game development
+acoustic ecology
+deck of cards
+sound design in games
+design guidelines
+design patterns
+small game developers
+empowerment
+game audio
+game design
+indie games
+pattern languages
+capacitacao
+criadores de jogos independentes
+desenho de jogos
+desenho de som em jogos
+desenvolvimento independente de jogos
+ecologia acustica
+jogos indie
+linguagem de padroes
+linhas orientadoras
+padroes de desenho
+videojogos
+doenca cardiovascular
+utilizacao de computadores no ensino -- ensino basico 1º ciclo
+estudo do meio -- ensino basico 1º ciclo
+modelacao
+simulacao
+programacao de computador -- aprendizagem
+metodos pedagogicos
+tecnologia da informacao -- gestao
+teoria ator-rede
+aspetos sociotecnicos de sistemas de informacao
+governanca de sistemas de informacao
+controlo de trafego
+controlo inteligente
+aprendizagem -- ensino superior
+tecnologias da informacao
+sistemas de bases de dados
+programacao de computadores -- aprendizagem
+e-learning
+educacao a distancia
+distributed hash table
+overlay network
+position-based routing scheme
+delaunay triangulation
+long range contact
+desktop grids
+volunteer computing
+checkpointing
+scheduling
+sabotage-tolerance
+musica digital
+analise de conteudo musical
+deteccao de pitch
+segmentacao de notas
+deteccao de melodia
+sistemas dinamicos
+modelos lineares com incertezas
+fault detection and isolation (fdi)
+fault tolerant control (fct)
+controlo robusto
+comutacao de controladores
+acomodacao de falhas
+reconfiguracao de sistemas
+classificacao de texto
+maquinas de vectores de suporte
+maquinas de vectores relevantes
+aprendizagem indutiva
+aprendizagem activa
+ensembles
+inteligencia artificial
+critica de arte
+redes de computadores
+seguranca
+qos
+diferenciacao de servicos
+redes de comunicacao -- seguranca
+multiacesso
+programacao genetica
+middleware
+jogos de computador
+comunicacoes moveis
+redes sem fios
+4g
+algoritmos evolucionarios
+optimizacao combinatoria
+engenharia informatica
+criatividade computacional
+engenharia de software
+qualidade de software
+falhas de software
+sistemas distribuidos
+sistemas transaccionais
+gestao de bases de dados
+avaliacao de sistemas
+fiabilidade de sistemas
+seguranca de sistemas
+redes neuronais
+neuro-fuzzy systems
+redes de comunicacoes
+engenharia do contexto
+paradigma emancipatorio
+teoria da actividade
+teoria dos actores-redes
+raciocinio e inferencia em inteligencia artificial
+case-based reasoning
+case tools
+rebuilder system
+knowledge management tools
+risco operacional
+intserv
+diffserv
+teoria dos sistemas
+teoria da modelacao
+recuperacao de avarias
+job-swapping
+tolerancia a falhas
+computacao paralela
+algoritmos distribuidos
+computacao cientifica
+paradigmas de programacao
+bibliotecas paralelas

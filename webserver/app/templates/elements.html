@@ -1,0 +1,39 @@
+
+{% macro resitem(ri, index, first=False, rec=False) -%}
+<div class="resitem byel {{ 'first' if first else '' }} ">
+    <div class="ri_top">
+        <div class="ri_title fleft">
+        {% if ri.uri != None and ri.uri != "" and ri.uri != "None" %}
+        <a target="_blank" class="ri_title_a" href="{{ ri.uri }}">
+        {% endif %}
+            {{ ri.title }}
+        {% if ri.uri != None and ri.uri != "" and ri.uri != "None" %}
+        </a>
+        {% endif %}
+        </div>
+        <div class="ri_date fright">{{ ri.date }}</div>
+    </div>
+    <div class="ri_middle fc">
+        <div class="ri_mleft fleft">
+            <div class="ri_author fc"> <span class="ri_subtitle">AUTHOR</span> <br> {{ ri.author }} </div>
+            {% if ri.advisors != None and ri.advisors != "" and ri.advisors != "None" %}
+            <div class="ri_advisor fc"> <span class="ri_subtitle">ADVISORS</span> <br> {{ ri.advisors }} </div>
+            {% endif %}
+        </div>
+        <div class="ri_mright fright">
+            {% if ri.grade != None and ri.grade != "" and ri.grade != "None" %}
+            <div class="ri_grade"> <span class="ri_subtitle">GRADE</span> <br> {{ ri.grade }}</div>
+            {% endif %}
+            {% if ri.keywords != None and ri.keywords != "" and ri.keywords != "None" %}
+            <div class="ri_keywords"> <span class="ri_subtitle">KEYWORDS</span> <br> {{ ri.keywords }}</div>
+            {% endif %}
+        </div>
+    </div>
+    {% if ri.abstract != None and ri.abstract != "" and ri.abstract != "None" %}
+    <div class="ri_bottom fc">
+        <div class="ri_abstract"> <span class="ri_subtitle" onclick="reshape(this, 'cabstract{{ 'r' if rec else '' }}' + {{ index }})">ABSTRACT  &or;</span> <br>
+        <span id="cabstract{{ 'r' if rec else '' }}{{ index }}" class="ri_abstract_content">{{ ri.abstract }}</span></div>
+    </div>
+    {% endif %}
+</div>
+{%- endmacro %}

@@ -1,0 +1,17 @@
+TEMPLATE:
+
+Title - Title \n
+
+Author - Author1 [his website] \n
+
+Advisor - Advisor1 [his website]; {Advisor1 [his website];} \n   // Advisor = One or more
+
+Keywords - {Keyword1;} {Keyword2;} \n 				// Keywords = 0 or more
+
+Date - Date \n
+
+Abstract - Abstract \n
+
+Thesis Type - Master Thesis / [Doctoral Thesis] \n		// One or the other
+
+URI - URI \n
